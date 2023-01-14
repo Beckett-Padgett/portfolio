@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: dimgray;
+    font-size: 3vh;
+}
+#buttons{
+    font-size: 2vw;
+    width: 99.6%;
+    height: 7vh;
+    background-color:black;
+    border: 1%;
+    border-color: slategrey;
+    border-style:ridge;
+    overflow: hidden;
+    padding: 3vh;
+ }
+ .button{
+    background-color: slategray;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 8vh;
+    width: 12vw;
+    text-decoration: solid;
+    border: 2%;
+ }
+.button:link{
+    color: azure;
+}
+.button:visited{
+    color: azure;
+}
+.button:hover{
+    background-color: rgba(112, 128, 144, 0.708);
+}
+ #bar{
+    width: 1vw;
+    height: 90vh;
+    background-color: black;
+    position: absolute;
+ }
+ .content{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    height: 80vh;
+    overflow: scroll;
+    background-color: darkgray;
+    border-radius: 20px;
+    display: none; 
+    float: left;
+}
+ #about:target{
+display: block;
+ }
+ #doc:target{
+    display: block;
+}
+#unit1:target{
+    display: block;
+}
+#unit2:target{
+    display: block;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+h1{
+    text-align: center;
+    margin: 2vw;
+}
+#linkedin{
+    width: 20vw;
+    margin: 7vw;
+}
+#linkedin:hover{
+    opacity: 85%;
+}
+#resume:hover{
+    opacity: 85%;
+}
+#resume{
+    width: 20vw;
+    margin: 7vw;
+}
+p{
+    margin: 2vw;
+}
+#and{
+    width: 30vw;
+    margin: 3vw;
+}
+#and:hover{
+    opacity:85%;
+}
+#small{
+    margin: 8vw;
+    float: right;
+}
+h4{
+margin-top: 1vw;
+margin-left: 5vw;
+color: beige;
+}
+#me{
+    margin: 13vh;
+}
+#book{
+    width:30vw;
+    margin: 3vw;
+}
+#book:hover{
+    opacity: 85%;
+}
